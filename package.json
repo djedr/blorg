@@ -1,0 +1,11 @@
+{
+  "name": "blorg",
+  "version": "1.0.0",
+  "description": "app for simple posting to github pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dariusz Jędrzejczak",
+  "license": "ISC"
+}
