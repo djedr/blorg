@@ -1,6 +1,6 @@
 'use strict';
 
-const parse = require("../dual-parser/parse.js");
+const parse = require("../dj-parser/parse.js");
 const fs = require("fs");
 
 let inputFileName = process.argv[2];
@@ -34,7 +34,7 @@ function compile(ast, parent) {
 						}
 					}
 				};
-			} else if (sigil === '!') {
+			} else if (sigil === '$') {
 				//str += 'CONTENT';
 				console.log(ast);
 				let i = 2, a;

@@ -87,19 +87,6 @@ Technologies:
 	Languages: JavaScript, Dual
 	Environments: Node.js
 
-Project: Aega
-Description:
-	Summary: Unreal Engine 4 game
-	Roles: interface programmer, visual scripting
-	Team size: < 10
-Links:
-	Facebook: https://www.facebook.com/aegagame/
-	Gameplay videos: https://www.youtube.com/watch?v=6dOR5cUkKzo | https://www.youtube.com/watch?v=RcAUHP7hrXA
-Technologies:
-	Platform: Unreal Engine 4
-	Languages: Blueprint Visual Scripting, JavaScript
-Notes: I participated in the project as part of classes at Technical University of Lodz and not outside this scope. The project went on to become 
-
 *** 2015 ***
 Project: Starlight
 Period: one semester
@@ -143,6 +130,19 @@ Technologies:
 	
 *** Minor non-professional ***
 *** 2016 ***
+Project: Aega
+Description:
+	Summary: Unreal Engine 4 game
+	Roles: interface programmer, visual scripting
+	Team size: < 10
+Links:
+	Facebook: https://www.facebook.com/aegagame/
+	Gameplay videos: https://www.youtube.com/watch?v=6dOR5cUkKzo | https://www.youtube.com/watch?v=RcAUHP7hrXA
+Technologies:
+	Platform: Unreal Engine 4
+	Languages: Blueprint Visual Scripting, JavaScript
+Notes: I participated in the project as part of classes at Technical University of Lodz and not outside this scope. The project was further developed by some of the members of the original team, later extended by new.
+
 Project: Zippy Web Race
 Links:
 	Gameplay video: https://www.youtube.com/watch?v=5SE5U3l_7BU
@@ -192,13 +192,8 @@ Links:
 Technologies:
 	Languages: HTML, CSS/LESS
 	Frameworks: Bootstrap
-	
-*** Other ***
-Games in various programming languages
-Academic projects:
-	Python, bash
 
-*** Early ***
+*** Other ***
 My experience with application development started around 2002, when I created my first computer games using The Games Factory, a visual game development tool. I started learning my first programming language, C++, around 2004.
 
 I was involved in a major Polish game development community based around gamedev.pl (now moved to warsztat.gd), participating in game development competitions, even organizing one. I was also briefly involved in development of Warlock's Gauntlet [ https://app.assembla.com/spaces/gdpl/wiki ] -- a major game project (written in C++) created by members of the communtiy. I learned the basics of the Squirrel scripting language [ http://squirrel-lang.org/ ] as a part of this project.

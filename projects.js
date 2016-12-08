@@ -20,10 +20,10 @@ function buildProjects() {
 		m = line.match(/^\*\*\* (.*) \*\*\*/);
 		if (m) {
 			return `<b>${m[1]}</b>`;
-		} else if ((m = line.match(/([^:]*:)(.*)/))) {
+		} else if ((m = line.match(/([^:]*:(?!\/))(.*)/))) {
 			let b = m[1];
 			if (b === "Project:") b = `<b>${b}</b>`;
-			return `<span style="color: gray">${b}</span>${m[2]}`;
+			return `<span style="color: gray">${b}</span>${m[2] || ""}`;
 		}
 		return line;
 	});
