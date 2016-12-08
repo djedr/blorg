@@ -1,0 +1,7 @@
+$[blog title]
+
+Hello, my name is Dariusz and this is my blog. These are the posts:
+$[posts]$[--[sort by modification date]]
+
+Notes to self:
+The deadline is 2018-07-21

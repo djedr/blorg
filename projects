@@ -1,0 +1,214 @@
+*** Professional ***
+*** 2016 ***
+Project: Work at Mobica Limited
+Description:
+	Job title: Junior Software Engineer
+	Roles: JavaScript Developer
+	Tasks: Human-Machine Interface application development
+	Team sizes:
+		Main: ~20
+		Other on-site: ~10
+	Other teams: remote in-company, remote client's
+	Methodologies: Scrum, Waterfall
+Technologies:
+	Languages: JavaScript, HTML, CSS/SASS
+	Frameworks: AngularJS, Bootstrap
+	Build tools: gulp
+	Environments: Node.js
+	Version control: Git
+	Code review: Gerrit
+	Code quality: JSLint
+	Testing: Jasmine, Karma, Protractor
+	Tools:
+		Organization: Google Docs
+		Project management: IBM Rational
+		Code editors/IDEs: Brackets, Visual Studio Code
+Hardware: N/A
+
+*** 2015 ***
+Project: Work at Samsung Electronics Polska
+Description:
+	Job title: Trainee/Engineer
+	Roles: Front-end developer, main frontend-developer
+	Team sizes:
+		Main: 7-10
+		Remote: 10?
+	Methodologies: Scrum
+Technologies:
+	Languages: JavaScript, HTML, CSS, Java, SQL, Groovy (Gradle)
+	Frameworks: AngularJS, Spring, Bootstrap
+	Libraries: jQuery
+	Environments: Node.js
+	Database systems: PostgreSQL, MySQL
+	Build tools: gulp, Gradle
+	Version control: Git
+	Code review: Gerrit
+	Project management: Confluence, JIRA
+	Code quality: SonarQube, JSLint
+
+*** 2014 ***
+Project: Internship at University of Edinburgh
+Description:
+	Summary: worked on an experimental web programming language: Links. "Dariusz significantly speeded up JavaScript compilation in Links and built and evaluated the performance of a number of games written in Links."
+	My role: intern/researcher
+	Team size: < 10
+	Methodologies: Scrum
+Links:
+	Links language's home page: http://links-lang.org/ | http://groups.inf.ed.ac.uk/links/
+	Links language's Github: https://github.com/links-lang/links
+	My branch on GitHub: https://github.com/links-lang/links/tree/dariusz
+Technologies:
+	Languages: JavaScript, Haskell, Links, OCaml
+Notes: See also my Bachelor's thesis. It is largely based on this work.
+
+*** Major non-professional ***
+*** 2016 ***
+Project: A web application for an early-stage start-up
+Period: 2015-04 to 2016-10
+Status: closed
+Description:
+	Summary: Design, architecture and implementation of the application
+	Team size: 4
+Technologies:
+	Languages: JavaScript, SQL
+	Frameworks: AngularJS, Angular 2, LoopBack
+	Environments: Node.js
+	Database systems: PostgreSQL
+
+Project: Master's thesis
+Period: 2016-03 to 2016-07
+Status: done
+Links:
+	Text in English: http://djedr.github.io/masters_thesis.pdf
+Description:
+	Title: "Dual: a web-based, Pac-Man-complete hybrid text and visual programming language"
+	Abstract: "Designed a programming language, which can have multiple deeply integrated editable representations. Presented a way to combine features of visual languages and text-based languages in a dynamic integrated development environment. Implemented a proof-of-concept interpreter and development environment for the language using web technologies. Presented a practical demonstration of the capabilities as well as a reference for assessing the performance of the implementation."
+Technologies:
+	Languages: JavaScript, Dual
+	Environments: Node.js
+
+Project: Aega
+Description:
+	Summary: Unreal Engine 4 game
+	Roles: interface programmer, visual scripting
+	Team size: < 10
+Links:
+	Facebook: https://www.facebook.com/aegagame/
+	Gameplay videos: https://www.youtube.com/watch?v=6dOR5cUkKzo | https://www.youtube.com/watch?v=RcAUHP7hrXA
+Technologies:
+	Platform: Unreal Engine 4
+	Languages: Blueprint Visual Scripting, JavaScript
+Notes: I participated in the project as part of classes at Technical University of Lodz and not outside this scope. The project went on to become 
+
+*** 2015 ***
+Project: Starlight
+Period: one semester
+Description:
+	Summary: a VR (virtual reality) game-simulation, which won silver in VR Challenge, 1st edition
+	My role: team leader, designer, programmer
+	Team size: 3
+Links:
+	Gameplay video: https://www.youtube.com/watch?v=Qi2UEvtk9E8
+	Gameplay video mirror: https://www.youtube.com/watch?v=wTFr_owPRAU
+	GitHub: https://github.com/djedr/starlight
+	Competiton's home page: http://vrchallenge.io/?lang=en
+Technologies:
+	Platforms: Unity3D
+	Languages: C#
+Hardware: Occulus Rift, Joystick
+
+Project: Bachelor's thesis
+Links:
+	Text in English: http://djedr.github.io/bachelors_thesis.pdf
+Description:
+	Title: "Optimizing Links, a functional programming language that compiles to JavaScript, for computer games"
+	Abstract: "[E]xplores the subjects of web game programming in the functional paradigm and programming language optimization. A few simple web games are implemented in the the experimental functional programming language Links. Optimizations are introduced to the language to improve performance. A benchmark application is implemented to quantify their effectiveness."
+Notes: See also my work on the Links programming language at University of Edinburgh. It is the basis of this thesis.
+
+*** 2014 ***
+Project: Mimus Dei
+Period: one semester
+Description:
+	Summary: a computer game, which won the Team Computer Game Development Competition, 6th edition. Project involved design and implementation of a game engine in C# on top of Microsoft's XNA framework and design and implementation of a game on top of that.
+	My role: one of the main programmers, team vice-leader
+	Team size: 6
+Links:
+	Competition summary (in Polish): http://gry.it.p.lodz.pl/okonkursie/edycja2014
+	Information about the game and the team, binaries, press info: http://bit.ly/mimusdei
+	Gameplay video: https://www.youtube.com/watch?v=U5mKpAnPqNw
+	Gameplay video mirror: https://www.youtube.com/watch?v=UisIPYBWnlA
+Technologies:
+	Languages: C#
+	Frameworks: XNA
+	
+*** Minor non-professional ***
+*** 2016 ***
+Project: Zippy Web Race
+Links:
+	Gameplay video: https://www.youtube.com/watch?v=5SE5U3l_7BU
+Technologies:
+	Languages: JavaScript, C++
+	Environments: Node.js
+	Modules: node-ipc (for local Inter Process Communication)
+Hardware: Wiimote for Wii
+
+Project: Software raytracer and renderer in JavaScript
+Description:
+	Summary: Implemented a software raytracer and renderer in JavaScript from scratch. This involved implementation of a math library for managing vectors, matrices and other mathematical objects as well as simple .obj parser.
+Links:
+	GitHub: https://github.com/djedr/js_renderer
+Technologies:
+	Languages: JavaScript
+
+*** 2015 ***
+Project: Audi Joyride
+Links:
+	GitHub: https://github.com/Vistritium/The-Light-
+	Gameplay video: https://www.youtube.com/watch?v=uWDlsLyezXU
+Team size: 5
+
+Project: An emotion-recognition application
+Description:
+	Summary: An application, which does face recognition and simple emotion recognition (smile, sadness, frown)
+Technologies:
+	Languages: C, C++
+	
+*** 2014 ***
+Project: Frogger clone for a microcontroller
+Links:
+	GitHub: https://github.com/Vistritium/frogger---systemy-wbudowane
+Technologies:
+	Platform: embedded
+	Languages: C
+Hardware:
+	Name: LPC2103 Education Board
+	Description: a simple microcontroller extended with a small 256-color display
+
+Project: A simple website for Marketing classes
+Description:
+	Team size: 2
+Links:
+	GitHub: https://github.com/Vistritium/MarketingPage
+Technologies:
+	Languages: HTML, CSS/LESS
+	Frameworks: Bootstrap
+	
+*** Other ***
+Games in various programming languages
+Academic projects:
+	Python, bash
+
+*** Early ***
+My experience with application development started around 2002, when I created my first computer games using The Games Factory, a visual game development tool. I started learning my first programming language, C++, around 2004.
+
+I was involved in a major Polish game development community based around gamedev.pl (now moved to warsztat.gd), participating in game development competitions, even organizing one. I was also briefly involved in development of Warlock's Gauntlet [ https://app.assembla.com/spaces/gdpl/wiki ] -- a major game project (written in C++) created by members of the communtiy. I learned the basics of the Squirrel scripting language [ http://squirrel-lang.org/ ] as a part of this project.
+
+I went on to learn many more programming languages (such as C, D, Vala), creating computer games for competitions and various small projects. From the start I was fascinated with programming language design and at some point I wanted to develop my own language. I created various small domain-specific languages, Brainfuck interpreters and eventually, for my Master's thesis I my own Lisp-based hybrid text and visual web programming language capable of implementing a full Pac-Man clone.
+	
+*** 2011-2013 ***
+
+*** 2007-2010 ***
+
+*** 2004-2006 ***
+
+*** 2002-2004 ***
