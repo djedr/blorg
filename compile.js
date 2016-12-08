@@ -3,8 +3,10 @@
 const parse = require("../dj-parser/parse.js");
 const fs = require("fs");
 
+const templateFileNamePostfix = '.template.html';
+let outputDirectory = '../djedr.github.io/';
 let inputFileName = process.argv[2];
-let input = fs.readFileSync(inputFileName, { encoding: 'utf-8' });
+let input = fs.readFileSync(inputFileName + templateFileNamePostfix, { encoding: 'utf-8' });
 let ast = parse(input);
 
 function compile(ast, parent) {
@@ -24,12 +26,16 @@ function compile(ast, parent) {
 			if (sigil === '@') {
 				// from attribute
 				console.log('ATR PARENT:', parent);
-				let a;
+				let a, b;
 				for (let i = 2; i < parent.length; i += 2) {
 					a = parent[i];
 					if (a.value) {
 						if (a.value === tag.value.slice(1)) {
-							str += parent[i + 1].value;
+							b = parent[i + 1];
+							if (b.value) str += b.value;
+							else {
+								str += compile(b, parent);
+							}
 							break;
 						}
 					}
@@ -85,6 +91,7 @@ function compile(ast, parent) {
 		}
 	// rewrite
 	} else {
+		//console.log('OTHER:', ast);
 		for (let i = 1; i < ast.length; ++i) {
 			if (ast[i].value) str += ast[i].space + ast[i].value;
 			else str += compile(ast[i], parent);
@@ -97,4 +104,4 @@ function compile(ast, parent) {
 let compiled = compile(ast, []);
 console.log('compiled:\n', compiled);
 
-fs.writeFileSync(process.argv[3] || 'output.html', compiled);
+fs.writeFileSync(process.argv[3] || `${outputDirectory}${inputFileName}.html`, compiled);

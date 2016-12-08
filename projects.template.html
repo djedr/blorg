@@ -1,26 +1,19 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<title>Dariusz Jędrzejczak -- Projects</title>
-	<link rel="stylesheet" type="text/css" href="main.css" />
-</head>
-<body>
-	<div class="document">
-	<span class="screen-only"><a href="index.html" >Click here to go back to the home page</a></span>
-	<h1>Dariusz Jędrzejczak</h1>
-	<h2>Projects/work</h2>
 
-	<span class="hidden">
-	<h3>Summary</h3>
-	<ul>
-		<li>...</li>
-	</ul>
-	</span>
-
-$[projects-list]
-
-	<footer class="screen-only">This document was last updated 2016-12-07</footer>
-	</div>
-</body>
-</html>
+$[dj-html $
+	$[dj-head title Projects]
+	$[dj-body
+		title Projects/work
+		$
+		<p>This is a rough list of some of the projects and work I've been involved with.<br />
+		It is ordered by category (professional, non-professional) and year (most recent first).<br />
+		This list is not complete and under active development.</p>
+		
+		<p class="list-description">Each entry contains:</p>
+		<ul style="margin-top: 0">
+			<li>a description with general information about the project,</li>
+			<li>a list of various technologies that I had some contact with in the scope of the project,</li>
+			<li>links to related resources, and other relevant information</li>
+		</ul>
+		$[^projects]
+	]
+]

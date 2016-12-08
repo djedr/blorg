@@ -2,6 +2,7 @@
 *** 2016 ***
 Project: Work at Mobica Limited
 Description:
+	Summary: Human-Machine Interface in AngularJS for an application on an embedded system running the WebKit layout engine.
 	Job title: Junior Software Engineer
 	Roles: JavaScript Developer
 	Tasks: Human-Machine Interface application development
@@ -23,11 +24,12 @@ Technologies:
 		Organization: Google Docs
 		Project management: IBM Rational
 		Code editors/IDEs: Brackets, Visual Studio Code
-Hardware: N/A
+	Hardware: embedded
 
 *** 2015 ***
 Project: Work at Samsung Electronics Polska
 Description:
+	Summary: a big web application, managing data of hundreds of thousands of users. I did mainly front-end -- after 3 months becoming the main front-end developer. But not exclusively -- wrote some Java and SQL as well.
 	Job title: Trainee/Engineer
 	Roles: Front-end developer, main frontend-developer
 	Team sizes:
@@ -49,7 +51,7 @@ Technologies:
 *** 2014 ***
 Project: Internship at University of Edinburgh
 Description:
-	Summary: worked on an experimental web programming language: Links. "Dariusz significantly speeded up JavaScript compilation in Links and built and evaluated the performance of a number of games written in Links."
+	Summary: worked on an experimental web programming language: Links. "[S]ignificantly speeded up JavaScript compilation in Links and built and evaluated the performance of a number of games written in Links."
 	My role: intern/researcher
 	Team size: < 10
 	Methodologies: Scrum
@@ -193,17 +195,5 @@ Technologies:
 	Languages: HTML, CSS/LESS
 	Frameworks: Bootstrap
 
-*** Other ***
-My experience with application development started around 2002, when I created my first computer games using The Games Factory, a visual game development tool. I started learning my first programming language, C++, around 2004.
-
-I was involved in a major Polish game development community based around gamedev.pl (now moved to warsztat.gd), participating in game development competitions, even organizing one. I was also briefly involved in development of Warlock's Gauntlet [ https://app.assembla.com/spaces/gdpl/wiki ] -- a major game project (written in C++) created by members of the communtiy. I learned the basics of the Squirrel scripting language [ http://squirrel-lang.org/ ] as a part of this project.
-
-I went on to learn many more programming languages (such as C, D, Vala), creating computer games for competitions and various small projects. From the start I was fascinated with programming language design and at some point I wanted to develop my own language. I created various small domain-specific languages, Brainfuck interpreters and eventually, for my Master's thesis I my own Lisp-based hybrid text and visual web programming language capable of implementing a full Pac-Man clone.
-	
-*** 2011-2013 ***
-
-*** 2007-2010 ***
-
-*** 2004-2006 ***
-
-*** 2002-2004 ***
+*** Earlier ***
+See a short description of my programming experience: http://djedr.github.io/programming-bio.html
